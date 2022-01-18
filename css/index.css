@@ -90,7 +90,7 @@ header .navbar ul li a:hover {
   color: var(--pink);
 }
 
-header .upload {
+header .resume {
   margin-left: 2rem;
   display: flex;
   align-items: center;
@@ -98,16 +98,16 @@ header .upload {
   color: #fff;
   border-radius: 5rem;
   padding: 0.5rem 2.5rem;
-  background: #ff0552;
+  background: transparent;
+  border: 1px solid #fff;
 }
 
-header .upload i {
+header .resume i {
   margin-left: 0.6rem;
 }
 
-header .upload:hover {
-  background: #fff;
-  color: #333;
+header .resume:hover {
+  letter-spacing: 1.2px;
 }
 
 header #menu {
@@ -177,14 +177,13 @@ header.header-active form {
   padding: 0.8rem 3rem;
   font-size: 1.7rem;
   border-radius: 0.5rem;
-  border: 0.2rem solid #a2a8d3;
-  color: #ff0552;
+  border: 2px solid #fff;
+  color: #fff;
   cursor: pointer;
-  background: #e7eaf6;
+  background: transparent;
 }
 .home .content .btn:hover {
-  background: #ff0552;
-  color: #fff;
+  letter-spacing: 1.2px;
 }
 
 .projects {
@@ -247,7 +246,6 @@ header.header-active form {
   padding: 0.8rem 2rem;
   font-size: 1.7rem;
   border-radius: 0.5rem;
-  border: 0.2rem solid #a2a8d3;
   color: #fff;
   cursor: pointer;
   background: #113f67;
@@ -256,8 +254,7 @@ header.header-active form {
   margin-left: 0.5rem;
 }
 .projects .content .btn:hover {
-  background: #ff0552;
-  color: #fff;
+  letter-spacing: 1.2px;
 }
 
 /* about me */
@@ -383,14 +380,14 @@ header.header-active form {
   padding: 0.8rem 3rem;
   font-size: 1.7rem;
   color: #fff;
-  background: #ff0552;
+  background: #113f67;
   border-radius: 0.5rem;
   cursor: pointer;
   border: none;
   text-transform: capitalize;
 }
 .contact .btn:hover {
-  letter-spacing: 2px;
+  letter-spacing: 1.2px;
 }
 
 /* footer */
@@ -487,7 +484,7 @@ footer .josh-portfolio {
     width: 100vw;
   }
 
-  header .upload {
+  header .resume {
     margin-right: 2rem;
   }
 

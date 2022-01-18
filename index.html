@@ -3,6 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="This is an online portfolio for Joshua Hawkins"
+    />
+    <meta
+      name="keywords"
+      content="portfolio,web developer,front-end developer, software engineer, software developer"
+    />
     <title>Josh | Portfolio</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/jpg" href="imgs/portfolio.png" />
@@ -30,14 +39,15 @@
         </ul>
       </nav>
       <a
+      rel="noopener"
         href="https://joshhawks1823.github.io/resume/"
         target="_blank"
-        class="upload"
+        class="resume"
         >Resume <i class="fas fa-file"></i>
       </a>
     </header>
 
-    <!-- home section  -->
+    <!--Home  -->
 
     <section class="home" id="home">
       <div class="content">
@@ -58,7 +68,7 @@
       <h1 class="heading"><span>Projects</span></h1>
       <div class="box-container">
         <div class="box">
-          <img src="imgs/lawnlux.png" alt="lawnlux website pic" />
+          <img src="imgs/lawnlux.webp" alt="lawnlux website pic" />
           <div class="content">
             <div class="box-header">
               <h3>Lawnlux</h3>
@@ -71,6 +81,7 @@
               href="https://brave-allen-c0e36d.netlify.app/"
               target="_blank"
               class="btn"
+              rel="noopener"
               >Site <i class="fas fa-link"></i
             ></a>
             <a
@@ -78,12 +89,13 @@
               target="_blank"
               style="margin-left: 0.4rem"
               class="btn"
+              rel="noopener"
               >Github <i class="fab fa-github"></i
             ></a>
           </div>
         </div>
         <div class="box">
-          <img src="imgs/image-search.png" alt="image search pic" />
+          <img src="imgs/image-search.webp" alt="image search pic" />
           <div class="content">
             <div class="box-header">
               <h3>Image Search</h3>
@@ -95,6 +107,7 @@
             <a
               href="https://objective-wilson-711396.netlify.app/"
               class="btn"
+              rel="noopener"
               target="_blank"
               >Site <i class="fas fa-link"></i
             ></a>
@@ -103,12 +116,13 @@
               target="_blank"
               style="margin-left: 0.4rem"
               class="btn"
+              rel="noopener"
               >Github <i class="fab fa-github"></i
             ></a>
           </div>
         </div>
         <div class="box">
-          <img src="/imgs/giphy-search.png" alt="gif search pic" />
+          <img src="/imgs/giphy-search.webp" alt="gif search pic" />
           <div class="content">
             <div class="box-header">
               <h3>Gif Search</h3>
@@ -121,12 +135,13 @@
               href="https://gif-search-f5665.firebaseapp.com/"
               target="_blank"
               class="btn"
+              rel="noopener"
               >Site <i class="fas fa-link"></i
             ></a>
           </div>
         </div>
         <div class="box">
-          <img src="imgs/blogger.png" alt="blogger app pic" />
+          <img src="imgs/blogger.webp" alt="blogger app pic" />
           <div class="content">
             <div class="box-header">
               <h3>Blogger App</h3>
@@ -140,6 +155,7 @@
               href="https://blogger-react-api.herokuapp.com/"
               target="_blank"
               class="btn"
+              rel="noopener"
               >Site <i class="fas fa-link"></i
             ></a>
             <a
@@ -147,12 +163,13 @@
               target="_blank"
               style="margin-left: 0.4rem"
               class="btn"
+              rel="noopener"
               >Github <i class="fab fa-github"></i
             ></a>
           </div>
         </div>
         <div class="box">
-          <img src="/imgs/leap-hosting.png" alt="leap hosting pic" />
+          <img src="/imgs/leap-hosting.webp" alt="leap hosting pic" />
           <div class="content">
             <div class="box-header">
               <h3>Leap Hosting</h3>
@@ -165,6 +182,7 @@
               href="https://compassionate-noether-811d92.netlify.app/"
               target="_blank"
               class="btn"
+              rel="noopener"
               >Site <i class="fas fa-link"></i
             ></a>
             <a
@@ -172,6 +190,7 @@
               target="_blank"
               style="margin-left: 0.4rem"
               class="btn"
+              rel="noopener"
               >Github <i class="fab fa-github"></i
             ></a>
           </div>
@@ -179,7 +198,7 @@
       </div>
     </section>
 
-    <!-- about me -->
+    <!-- About -->
 
     <section class="about" id="about">
       <h1 class="heading"><span>About</span> Me</h1>
@@ -192,7 +211,7 @@
             autoplay
           ></video>
         </div>
-         <div class="content">
+        <div class="content">
           <p>
             My fascination with technology started at an early age. I learned
             how to code by reading C++ and visual basic books as a kid, and am
@@ -205,8 +224,8 @@
             community.
           </p>
           <div class="icons">
-            <a href=""><i class="fab fa-github"></i></a>
-            <a href=""> <i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/joshHawks1823" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/joshua-hawkins-403053191/" target="_blank" rel="noopener"><i class="fab fa-linkedin"></i></a>
           </div>
         </div>
       </div>
@@ -225,13 +244,11 @@
       </div>
     </section>
 
-    <!-- contact section starts  -->
+    <!-- Contact   -->
 
     <section class="contact" id="contact">
       <h1 class="heading"><span>Contact</span> Me</h1>
-
-      <form action="https://formspree.io/f/moqrjlnw"
-      method="POST">
+      <form action="https://formspree.io/f/moqrjlnw" method="POST">
         <div class="inputBox">
           <input type="text" placeholder="name" />
           <input type="email" name="_replyto" placeholder="email" />
@@ -253,6 +270,7 @@
       </form>
     </section>
 
+    <!-- Footer -->
     <footer>
       <div class="josh-portfolio">Josh Hawkins | 2022</div>
     </footer>
